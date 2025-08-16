@@ -1,0 +1,10 @@
+library (myB) {
+  time_unit : "1ns";
+  voltage_unit : "1V";
+  cell X_b {
+    pin C;
+    attribute size = 12;
+    attribute note = demo;
+    attribute ref = Y_a; // external reference to A's Y
+  }
+}

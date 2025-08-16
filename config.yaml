@@ -1,0 +1,6 @@
+postfix:
+  regex: '^(?P<base>.+)_(?P<tag>[a-z0-9])$'
+  case_sensitive: false
+precedence: later
+units_policy: first
+rewrite_attr_equals_cellname: true

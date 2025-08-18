@@ -1,7 +1,9 @@
 # Liberty Merger (GUI)
 
-**Purpose:** Analyze and merge Liberty (`.lib`) files (e.g., CCS/ECSM).  
-**Status:** GUI is the supported path. **CLI is in progress.**
+**Purpose:** Analyze and merge Liberty (`.lib`) files generated using partitioned characterization technique for QDI logic cells.  
+
+**Status:** GUI is the supported path. 
+**CLI is in progress.**
 
 ---
 
@@ -14,7 +16,7 @@
 
 ---
 
-> Tested on Python **3.11+** (works on 3.13). Use a virtualenv.
+> Tested on Python **3.11+** (works on 3.13). Requires a virtualenv.
 
 ---
 
@@ -25,7 +27,15 @@ git clone https://www.github.com/xiayu87/mrglib
 cd mrglib
 pip install -r requirements.txt
 
+---
+
 ## Run GUI
 
 source .venv/bin/activate
 python gui_app.py
+
+---
+
+## Interface
+
+<img src="doc/5.png" alt="GUI Screenshot" width="600">

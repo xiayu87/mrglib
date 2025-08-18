@@ -32,6 +32,7 @@ pip install -r requirements.txt
 
 ## Run GUI
 
+```bash
 source .venv/bin/activate
 python gui_app.py
 
@@ -40,6 +41,6 @@ python gui_app.py
 
 ## Interface
 
-![Liberty Merger GUI](./doc/5.png)
+![Liberty Merger GUI](https://github.com/xiayu87/mrglib/tree/main/doc/5.png)
 
 ---

@@ -26,6 +26,7 @@
 git clone https://www.github.com/xiayu87/mrglib
 cd mrglib
 pip install -r requirements.txt
+```
 
 ---
 
@@ -35,12 +36,15 @@ pip install -r requirements.txt
 ```bash
 source .venv/bin/activate
 python gui_app.py
+```
 
 ---
 
 
 ## Interface
 
-[![Liberty Merger GUI](https://i.postimg.cc/ZqydnhWY/5.png)](https://postimg.cc/wtgv4Z5n)
+<p align="center">
+  <img src="./doc/5.png" alt="Liberty Merger GUI" width="853" height="422">
+</p>
 
 ---

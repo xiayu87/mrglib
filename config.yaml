@@ -1,5 +1,5 @@
 postfix:
-  regex: '^(?P<base>.+)_(?P<tag>[a-z0-9])$'
+  regex: '^(?P<base>.+)(?P<tag>[a-z])$'
   case_sensitive: false
 precedence: later
 units_policy: first

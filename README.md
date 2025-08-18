@@ -1,22 +1,29 @@
-# mrglib
+# Liberty Merger (GUI)
 
-Tools to **analyze** and **merge** Liberty `.lib` files where cells are suffixed (e.g. `NAND2_a`, `NAND2_b`).  
-Merging strips the suffix, unions pins, rewrites attributes that reference postfixed cell names, and respects attribute precedence.
+**Purpose:** Analyze and merge Liberty (`.lib`) files (e.g., CCS/ECSM).  
+**Status:** GUI is the supported path. **CLI is in progress.**
 
-- **Analyze:** quick, read-only summary of files (cells, pins, timing/power presence, units, includes).
-- **Merge:** combine 2+ `.lib` into one by base cell name.
+---
+
+## Features
+- Parse and analyze `.lib` files (cells, pins, timing/power presence).
+- Merge multiple files **or** variants within a single file (e.g., `ACELL1a`, `ACELL1b` → `ACELL1`).
+- Preserve inner cell bodies (timing/power groups).
+- Export merged output to `merged.lib`.
+- Simple JSON/CSV export from the analysis dialog.
+
+---
 
 > Tested on Python **3.11+** (works on 3.13). Use a virtualenv.
 
 ---
 
-## Install
+## Installation
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install PyQt6 pyyaml
+git clone https://www.github.com/xiayu87/mrglib
+cd mrglib
+pip install -r requirements.txt
 
 ## Run GUI
 

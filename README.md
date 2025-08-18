@@ -29,6 +29,8 @@ pip install -r requirements.txt
 
 ---
 
+
+
 ## Run GUI
 
 source .venv/bin/activate
@@ -36,6 +38,8 @@ python gui_app.py
 
 ---
 
+
+
 ## Interface
 
-<img src="doc/5.png" alt="GUI Screenshot" width="600">
+![Liberty Merger GUI](doc/5.png)

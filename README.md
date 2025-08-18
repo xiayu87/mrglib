@@ -41,6 +41,6 @@ python gui_app.py
 
 ## Interface
 
-![Liberty Merger GUI](https://github.com/xiayu87/mrglib/tree/main/doc/5.png)
+[![Liberty Merger GUI](https://i.postimg.cc/ZqydnhWY/5.png)](https://postimg.cc/wtgv4Z5n)
 
 ---

@@ -1,0 +1,20 @@
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# LaTeX build junk
+doc/*.aux
+doc/*.log
+doc/*.out
+doc/*.toc
+doc/*.synctex.gz
+
+# Local keys / secrets (NEVER commit)
+githubkey
+githubkey.pub

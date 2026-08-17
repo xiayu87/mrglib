@@ -25,6 +25,7 @@
 ```bash
 git clone https://www.github.com/xiayu87/mrglib
 cd mrglib
+python -m venv .venv
 pip install -r requirements.txt
 ```
 

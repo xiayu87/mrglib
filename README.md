@@ -49,3 +49,42 @@ python gui_app.py
 </p>
 
 ---
+
+## Citing this work
+
+If you use **mrglib** (or results produced with it) in academic work, please cite the
+partition-based Liberty method:
+
+> S. Haider, R. Ding, N. R. Rizvi, and S. Chen,
+> “Automated Partition-Based Liberty Modelling for Asynchronous Circuits,”
+> *Electronics Letters*, vol. 62, no. 1, Art. no. e70519, 2026.
+> [https://doi.org/10.1049/ell2.70519](https://doi.org/10.1049/ell2.70519)
+
+This repository implements **structural merge only** (postfix strip, pin/arc union,
+precedence). Characterization and delay arithmetic are outside this tool.
+
+Optional software citation:
+
+> S. Haider, “mrglib: Partition-based Liberty Merging Tool,” Zenodo, 2025.
+> [https://doi.org/10.5281/zenodo.17766121](https://doi.org/10.5281/zenodo.17766121)
+
+```bibtex
+@article{haider2026partition_letters,
+  author  = {Haider, Shahzad and Ding, Ruochen and Rizvi, Naheel Raza and Chen, Song},
+  title   = {Automated Partition-Based Liberty Modelling for Asynchronous Circuits},
+  journal = {Electronics Letters},
+  volume  = {62},
+  number  = {1},
+  pages   = {e70519},
+  year    = {2026},
+  doi     = {10.1049/ell2.70519},
+  url     = {https://doi.org/10.1049/ell2.70519}
+}
+
+@software{haider_mrglib_software,
+  author  = {Haider, Shahzad},
+  title   = {{mrglib}: Partition-based Liberty Merging Tool},
+  year    = {2025},
+  doi     = {10.5281/zenodo.17766121},
+  url     = {https://github.com/xiayu87/mrglib}
+}
